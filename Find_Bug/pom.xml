@@ -19,6 +19,7 @@
 		</dependency>
 	</dependencies>
 	<!-- Create report by mvn findbugs:findbugs -->
+	<!-- For more mvn goals, see https://gleclaire.github.io/findbugs-maven-plugin/plugin-info.html -->
 	<build>
 		<!-- To define the plugin version in your parent POM -->
 	    <pluginManagement>
