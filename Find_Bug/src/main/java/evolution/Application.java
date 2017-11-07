@@ -1,9 +1,11 @@
 package evolution;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Application {
 	public static void main(String[] args) {
-		int i = 1 / 0;
-		String string = null;
-		int j = string.length();
+		SpringApplication.run(Application.class, args);
 	}
 }
